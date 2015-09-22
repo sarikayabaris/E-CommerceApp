@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ecommerce With Paypal</string>
+    <string name="strOrderInfo">No product information...</string>
+    <string name="strCheckOut">Checkout</string>
+    <string name="strQuantity">Quantity</string>
+    <string name="strAdd">Add</string>
+    <string name="strPaymentTitle">Payment Details</string>
+    <string name="strPayWithPaypal">Pay with PayPal</string>
+
+
+</resources>

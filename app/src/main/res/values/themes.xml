@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item>
+    </style>
+
+
+    <array name="text_title">
+        <item>@style/LightTitleText</item>
+    </array>
+
+    <array name="text_body">
+        <item>@style/LightBodyText</item>
+    </array>
+
+    <array name="button_raise_wave_color">
+        <item>@style/LightRaiseWaveColorButtonRippleStyle</item>
+    </array>
+
+    <array name="edittext">
+        <item>@style/LightEditText</item>
+    </array>
+
+</resources>

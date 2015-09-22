@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgOrderImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/item_icon" />
+
+
+    <TextView
+        android:id="@+id/txtOrderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgOrderImage"
+        android:text="@string/strOrderInfo"
+        android:textDirection="locale"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtOrderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOrderTitle"
+        android:layout_toRightOf="@+id/imgOrderImage"
+        android:text="@string/strOrderInfo"
+        android:textDirection="locale"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtOrderPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOrderInfo"
+        android:layout_toRightOf="@+id/imgOrderImage"
+        android:text="@string/strOrderInfo"
+        android:textDirection="locale"
+        android:textSize="11sp" />
+
+
+    <EditText
+        android:id="@+id/edtOrderQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:hint="@string/strQuantity"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnItemAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bt_height"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtOrderQuantity"
+        android:text="@string/strAdd" />
+
+</RelativeLayout>
